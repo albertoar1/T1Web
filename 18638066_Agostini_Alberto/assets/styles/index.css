@@ -47,3 +47,9 @@ h1 {
     box-shadow: 0 2px 5px rgba(36, 81, 135, 0.1);
     background-color: #0a0523;
 }
+
+@media only screen and (max-width: 768px){
+    footer {
+        text-align: center;
+    }
+}

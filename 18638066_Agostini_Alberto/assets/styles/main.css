@@ -24,6 +24,14 @@ article {
     flex-direction: row;
     flex-wrap: wrap;
     flex: 1;
+    width: 96%;
+    align-items: center;
+    height: 20px;
+    padding: 2%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(36, 81, 135, 0.1);
+    background-color: #6624d1;
 }
 
 h1 {
@@ -47,4 +55,21 @@ h1 {
     flex-direction: column;
     flex-wrap: wrap;
     flex: 1;
+}
+
+.info {
+    margin: 1em;
+}
+
+@media only screen and (max-width: 768px){
+    footer {
+        text-align: center;
+    }
+    article {
+        flex-direction: column;
+    }
+    .info {
+        text-align: center;
+        align-items:flex-start;
+    }
 }
