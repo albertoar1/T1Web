@@ -15,6 +15,13 @@ h1 {
     font: bold;
 }
 
+.info {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    font: unset;
+}
+
 .img {
     display: block;
     margin-left: auto;

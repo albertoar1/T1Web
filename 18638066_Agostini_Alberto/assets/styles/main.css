@@ -26,6 +26,14 @@ article {
     flex: 1;
 }
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
 .navigator {
     text-align: center;
     width: 96%;
